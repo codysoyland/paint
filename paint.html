@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Paint</title>
+
+        <style type="text/css">
+            #container {
+                position: relative;
+            }
+            canvas {
+                position: absolute;
+                border: #ddd 3px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="usercanvas" width="640" height="480"></canvas>
+        </div>
+
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js"></script>
+        <script type="text/javascript" src="paint.js"></script>
+    </body>
+</html>
